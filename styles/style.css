@@ -30,7 +30,7 @@ section {
   max-width: 400px;
   border: 4px groove #ddd;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 label {
@@ -42,6 +42,7 @@ input, .btn {
   width: calc(100% - 12px);
   padding: 6px;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .btn {
@@ -54,4 +55,8 @@ input, .btn {
 
 .btn:hover {
   background-color: #45a049;
+}
+
+.output {
+  font-style: italic;
 }
